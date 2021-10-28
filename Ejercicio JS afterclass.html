@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html style="font-size: 32px; margin: 0 25%;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+    <head>
+        <style>
+            
+            body{
+                margin-top: 10%;
+                border: 3px solid #663399;
+                font-family: 'Fira Sans', sans-serif;
+
+            }
+            span{
+                width: 40%;
+                justify-content: center;
+                display: block;
+                height: 2px;
+                background-color: #663399;
+                margin: 1% 30%;
+            }
+            .actividad1{
+                margin: 2% 0;
+                text-align: center;
+                
+            }
+            .actividad2, .actividad3{
+                margin: 1% 0;
+                text-align: center;
+            }
+            .actividad2 button{
+                margin: 2% 37%;
+                padding: 0.5rem 1rem;
+            }
+            .actividad3 button{
+                margin: 2% 33%;
+                padding: 0.5rem 1rem;
+            }
+
+            .guinio{
+                animation: blinker 1.5s linear infinite;
+                
+            }
+
+            @keyframes blinker{
+                50%{
+                    opacity: 0;
+                    color: red;
+                }
+            }
+            .actividad2 label, .actividad3 label{
+                width: 100%;
+                margin: 0 10%;
+            }
+            .actividad2 input{
+                margin: 1% 33%;
+            }
+            button{
+                background-color: #663399;
+                color: #fff;
+                padding: 0.5rem 0.6rem;
+                font-family: 'Fira Sans', sans-serif;
+            }
+            footer{
+                font-size: 0.7rem;
+                text-align: right;
+                margin: 0.1rem 0.2rem;
+            }
+    </style>
+    </head>
+</head>
+<body>
+    <div class="actividad1">
+        <h3>Actividad 1</h3>
+        
+        <button onclick="botonClick()">Clickeame</button>
+        <span></span>
+    </div>
+    
+
+    <div class="actividad2">
+        <h3>Actividad 2</h3>
+
+        <label id="labelCambio" for="textoCargado">Si clickeas el botón enviar, yo cambio:</label>
+        <input type="text" id="textoCargado" name="textoCargado"> 
+        <button onclick="cambiarLabel()">Enviar</button>
+        <span></span>
+    </div>
+        
+        <div class="actividad3">
+            <h3>Actividad 3</h3>
+ 
+            <label id="labelColor" for="textoCargado">Este texto cambiará</label>
+        <button onclick="cambioColor()">Cambiar de Color</button>
+        </div>
+
+    <script>
+        function botonClick(){
+            alert("Este botón si funciona!");
+        }
+
+        function cambiarLabel(){
+            let labelillo = document.getElementById('labelCambio');
+            let textoCambiado = document.getElementById('textoCargado').value;
+
+            
+
+            if (textoCambiado.length == 0){
+                labelillo.innerText = "Por favor, escribe algo";
+                labelillo.classList.add('guinio');
+            }else{
+                labelillo.classList.remove('guinio')
+                labelillo.innerText = textoCambiado;
+            }
+        }
+        let labelColoh = document.getElementById('labelColor'),
+            colores = ['red', 'blue', 'green', 'black'];
+        
+        function cambioColor(){
+            
+        }
+        for (var i = 0; i < colores.length; i++){
+            if(colores[i] == 'red'){
+                labelColoh.style.colores[0];
+            }
+        }
+    </script>
+<footer>Arturo Martinez</footer>
+</body>
+</html>

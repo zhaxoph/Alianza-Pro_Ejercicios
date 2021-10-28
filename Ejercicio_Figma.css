@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image{
+    position: absolute;
+    width: 45rem;
+    height: 46.1rem;
+}
+
+.span{
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-family: roboto;
+    line-height: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.spBienv{
+    font-size: 1rem;
+    width: 9.43rem;
+    height: 1.18rem;
+    top: 6.25rem;
+    left: 51.25rem;
+    line-height: 1.18rem;
+    color: #2D3748;
+}
+
+.spLogin{
+    width: 21.5rem;
+    height: 2.18rem;
+    left: 51.25rem;
+    top: 7.56rem;
+    font-size: 1.87rem;
+    font-weight: bold;
+    line-height: 2.18rem;
+    color: #1A202C;
+}
+
+.login-form{
+    position: absolute;
+    width: 21.87rem;
+    height: 13.43rem;
+    left: 51.25rem;
+    top: 11.25rem;
+}
+
+.ipEmail{
+    width: 21.87rem;
+    height: 3.12rem;
+    top: 13.95%;
+    bottom: 62.79%;
+    font-size: 1rem;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.ipPwd{
+    width: 21.87rem;
+    height: 3.12rem;
+    top: 56.28%;
+    bottom: 20.47%;
+    font-size: 1rem;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.spPwd{
+    top: 46.98%;
+    bottom: 20.47%;
+    font-size: 1rem;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+::placeholder{
+    position: absolute;
+    left: 5.71%;
+    right: 61.43%;
+    top: 30%;
+    bottom: 20.7%;
+    font-size: 0.87rem;
+    line-height: 1.18rem;
+}
+
+
+
+.spfPwd{
+    width: 8.43rem;
+    position: absolute;
+    left: 33.86%;
+    right: 33.14%;
+    top: 84.65%;
+    bottom: 7.91%;
+    font-size: 0.87rem;
+    line-height: 1rem;
+    color: #2B6CB0;
+    cursor: pointer;
+}
+
+.login-button{
+    position: absolute;
+    width: 21.87rem;
+    height: 3.12rem;
+    top: 56.28%;
+    bottom: 20.47%;
+    left: 51.2rem;
+    background-color: #04c35c;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 3rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.google-button{
+    position: absolute;
+    width: 21.87rem;
+    height: 3.12rem;
+    top: 64.28%;
+    left: 51.2rem;
+    background-color: #04c35c;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 3rem;
+    color: #ffffff;
+    background-color: #2D3748;
+    cursor: pointer;
+}
+.spCuenta{
+    position: absolute;
+    position: absolute;
+    width: 11.25rem;
+    height: 1.18rem;
+    left: 52.18rem;
+    top: 33.43rem;
+    font-size: 1rem;
+    line-height: 1.18rem;
+}
+.spRegist{
+    position: absolute;
+    position: absolute;
+    width: 11.25rem;
+    height: 1.18rem;
+    left: 63.50rem;
+    top: 33.43rem;
+    font-size: 1rem;
+    line-height: 1.18rem;
+    color: #2B6CB0;
+    cursor: pointer;
+}
